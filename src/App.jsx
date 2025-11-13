@@ -1,7 +1,7 @@
 import Project from "../src/component/Project.jsx";
 function App() {
     return (
-        <div>
+        <>
             <Project
                 projectName="Duck-FormValidation"
                 projectImg="../src/assets/image2.png"
@@ -21,9 +21,9 @@ function App() {
                 projectImg="../src/assets/capture.JPG"
                 githubRepo="https://github.com/SonalMahe/CssFrameworksA15"
                 tech="Bootstrap, Animation ,CSS Frameworks" 
-                shortDesc="I am learing  diff CSS frameworks by using Bootstrap"></Project>
+                shortDesc="I am learing diff CSS frameworks by using Bootstrap"></Project>
              
-        </div>
+        </>
     )
 }
 export default App

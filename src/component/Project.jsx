@@ -6,7 +6,10 @@ function Projects(props) {
         <div className="Profile">
           <h2>Project Name: {props.projectName} </h2>
           <img className="img" src={props.projectImg}></img>
-          <h3>Github repo link: {props.githubRepo} </h3>
+        <div className="repoLink">
+            <h3>Github repo link: </h3>
+              <a href= {props.githubRepo}></a>
+        </div>
           <h3>Tech used: {props.tech} </h3>
           <p>Short description about project: {props.shortDesc}</p>
         </div>
