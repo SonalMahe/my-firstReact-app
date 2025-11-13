@@ -9,14 +9,14 @@ function App() {
                 tech="HTML n CSS" 
                 shortDesc="I am learing how to create form validation by using input & label fields"></Project>
                  
-                 <Project
-                projectName="Productly"
-                projectImg="../src/assets/image1.png"
+                <Project
+                projectName="Productly FigmaFile"
+                projectImg="../src/assets/image3.png"
                 githubRepo="https://github.com/SonalMahe/ProductlyA7"
                 tech="Grid,CSS and Flexbox" 
-                shortDesc="I am learing how to align,making grid and using of flexbox"></Project>
+                shortDesc="I am learing how to align,making grid and using of flexbox."></Project>
                 
-                 <Project
+                <Project
                 projectName="Kindergatan project"
                 projectImg="../src/assets/capture.JPG"
                 githubRepo="https://github.com/SonalMahe/CssFrameworksA15"
