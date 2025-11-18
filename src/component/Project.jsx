@@ -1,8 +1,9 @@
 import "./Project.css"
+import { useState } from "react";
 
 
 function Projects(props) {
-    return (
+      return (
         <div className="Profile">
           <h2>Project Name: {props.projectName} </h2>
           <img className="img" src={props.projectImg}></img>

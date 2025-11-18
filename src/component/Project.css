@@ -1,5 +1,5 @@
 .Profile{
-    border: 1px solid green;
+    border: 1.5px solid blue;
     border-radius: 15px;
     box-shadow: 5px 5px 5px black;
     padding: 20px;
@@ -9,6 +9,7 @@
     display: inline-block;
     background-color:rgb(237, 230, 230);
     font-size: 1rem;
+
 }
 
 .img{
