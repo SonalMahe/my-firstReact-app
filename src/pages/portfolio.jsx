@@ -7,7 +7,7 @@ function Portfolio() {
         <>
             <button onClick={() => setShow(!show)}>
                 {show ? "Hide Details" : "Show Details"}</button>
-            <h1>This is portfolio page</h1>
+            <h1>Portfolio page</h1>
 
 
             {show && (<Project
