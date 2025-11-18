@@ -1,23 +1,17 @@
 import { Link } from "react-router-dom";
+import "./navigation.css"
 
 function NavBar() {
     return (
         <>
             <nav>
-                <ul style={{
-                    listStyle: "none",
-                    display: "flex",
-                    justifyContent: "space-evenly",
-                    gap: "20px",
-                    alignItems: "center",
-                    padding: 5
-                }}>
+                <ul class="nav">
                     <li><Link to="/">Home</Link></li>
-                    <span>|</span>
+                    <span></span>
                     <li><Link to="/about">About Us</Link></li>
-                    <span>|</span>
+                    <span></span>
                     <li><Link to="/contact">Contact US</Link></li>
-                    <span>|</span>
+                    <span></span>
                     <li><Link to="/portfolio">Portfolio</Link></li>
                 </ul>
             </nav>

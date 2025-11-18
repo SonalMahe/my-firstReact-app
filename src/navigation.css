@@ -1,0 +1,9 @@
+.nav li {
+         list-style-type: none;
+        display: inline-block;
+        justify-content: center;
+        gap: 50px;
+        align-items: center;
+        padding: 20px;
+        margin: 10px;
+}
