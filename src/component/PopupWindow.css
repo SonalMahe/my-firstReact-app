@@ -1,35 +1,35 @@
 .popup-window {
     border: 1px black;
-    position: fixed;
-    width: 350px;
+    height: 500px;
+    width: 400px;
     background: burlywood;
     padding: 20px 25px;
     border-radius: 10px;
     text-align: center;
 
-
 }
 
 .title {
     text-align: center;
-    text-decoration: dashed;
+    text-decoration: underline;
     color: brown;
 }
 
 .close-button {
-    margin-top: 15px;
-    padding: 8px 16px;
+    margin-top: 10px;
+    padding: 8px 15px;
     background: blue;
     color: white;
     border: none;
     border-radius: 6px;
     cursor: pointer;
+    text-align: center;
 }
 
 .close-button:hover {
     background: #e33d3d;
 }
 .image{
-    height: 20px;
-    width: 20px;
+    height:200px;
+    width: 300px;
 }
