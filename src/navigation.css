@@ -1,7 +1,7 @@
 .nav li {
          list-style-type: none;
         display: inline-block;
-        justify-content: space-evenly;
+        justify-content: space-between;
         gap: 50px;
         align-items: center;
         padding: 20px;
