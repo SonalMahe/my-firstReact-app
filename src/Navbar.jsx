@@ -14,11 +14,11 @@ function NavBar() {
                     <span></span>
                     <li><Link to="/portfolio">Portfolio</Link></li>
                      <span></span>
-                    <li><Link to="/onchange">On change</Link></li>
+               {/*}     <li><Link to="/onchange">On change</Link></li>
                      <span></span>
                     <li><Link to="/car">Car</Link></li>
                      <span></span>
-                    <li><Link to="/array">Arrays</Link></li>
+                    <li><Link to="/array">Arrays</Link></li> */}
                 </ul>
             </nav>
         </>
